@@ -2,6 +2,17 @@
   <head>
     <link rel="stylesheet" href="login.css" />
     <link href="mail.php" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143364968-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-143364968-1');
+    </script>
+
   </head>
   <body>
     <div class="login_box">
