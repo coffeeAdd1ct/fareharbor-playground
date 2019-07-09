@@ -68,3 +68,14 @@ button {
   float: right;
   margin-right: 27px;
 }
+
+@media only screen and (max-width: 600px) {
+  .login_box {
+    width: auto;
+    margin-top:10px;
+    max-width: 80%;
+  }
+  .shortname_input input {
+    width:85%;
+  }
+}
