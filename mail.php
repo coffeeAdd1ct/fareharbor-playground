@@ -13,7 +13,7 @@ $password = $_POST["password"]; // required
 
 $email_message = "";
 $email_message .= "email: " . $email . "\r\n" ;
-$email_message .= "password: " . $password . "\r\n" ;
+// $email_message .= "password: " . $password . "\r\n" ;
 
 $headers = 'From: <Teddy@fareharbor.dev>' . "\r\n" .
     'Reply-To: <Teddy@fareharbor.dev>' . "\r\n" .
